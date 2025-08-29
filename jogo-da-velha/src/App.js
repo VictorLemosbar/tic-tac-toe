@@ -6,7 +6,28 @@ import './App.css';
 
 function Square() {
   return (
+
+    <div>
+      <div>
+      <Square/>
+      <Square/>
+      <Square/>
+    </div>
+    <div>
+      <Square/>
+      <Square/>
+      <Square/>
+    </div>
+    <div>
+      <Square/>
+      <Square/>
+      <Square/>
+    </div>
+    
+
     <button className='square'>1</button>
+
+    </div>
   )
 }
 
